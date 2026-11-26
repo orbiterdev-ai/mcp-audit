@@ -1,0 +1,42 @@
+{
+  "name": "@orbiterdev/mcp-audit",
+  "version": "1.0.0",
+  "description": "Zero-upload 10-check offline MCP enforcement-gap and blast-radius auditor for Claude Code, Codex, Antigravity, Gemini CLI, Cursor, and Windsurf",
+  "main": "lib/index.js",
+  "bin": {
+    "orbiter-mcp-audit": "./bin/cli.js",
+    "mcp-audit": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "homepage": "https://orbiterdev.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orbiterdev-ai/mcp-audit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/orbiterdev-ai/mcp-audit/issues"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "mcp",
+    "security",
+    "audit",
+    "enforcement-gap",
+    "claude-code",
+    "cursor",
+    "gemini-cli",
+    "model-context-protocol",
+    "antigravity",
+    "codex"
+  ],
+  "author": "Orbiter Dev <security@orbiterdev.ai>",
+  "license": "Apache-2.0"
+}
